@@ -23,6 +23,10 @@ body {
 
 }
 
+:focus{
+  outline: none;
+  box-shadow: 0 0 2px 2px #e5e5e5,0 0 10px #e5e5e5;
+}
 /* == Generelles == */
 
 
@@ -118,7 +122,9 @@ body {
 }
 
 
-
+.logo-link{
+  display: inline-block;
+}
 /* === Navigationslieste mobile === */
 
 #mobile-nav-button {
@@ -183,7 +189,7 @@ body {
 
 /*=== header-banner ===*/
 
-.header-banner {
+#header-banner {
   background: url("../img/hintergrund.jpg") no-repeat;
   width: 100%;
   height: 0;
@@ -191,7 +197,7 @@ body {
   background-size: contain;
 }
 
-.header-banner-klein {
+#header-banner-klein {
   background: url("../img/hintergrund-klein.jpg") no-repeat;
   width: 100%;
   height: 0;
