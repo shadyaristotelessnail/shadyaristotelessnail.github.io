@@ -26,7 +26,29 @@ body {
 }
 
 section {
-  padding: 4rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+@media (max-width:1366px) {
+  section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+
+@media (max-width:1024px) {
+  section {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+}
+
+@media (max-width:768px) {
+  section {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+  }
 }
 
 /* == Generelles == */
@@ -83,6 +105,18 @@ section {
   margin-bottom: 2.5rem;
 }
 
+@media (max-width:1366px) {
+  .intro-container {
+    width: 90%;
+  }
+}
+
+@media (max-width:1024px) {
+  .intro-container {
+    width: 100%;
+  }
+}
+
 .intro-container>h1 {
   font-size: 1.6rem;
   text-transform: uppercase;
@@ -90,6 +124,18 @@ section {
 
 .intro-container>p {
   font-size: 1.2rem;
+}
+
+@media (max-width:1366px) {
+  ..intro-container>p {
+    margin-bottom: .5rem;
+  }
+}
+
+@media (max-width:1024px) {
+  .intro-container>p {
+    margin-bottom: 0;
+  }
 }
 
 /* === Navigationsleiste === */
@@ -267,6 +313,7 @@ section {
   height: 40px;
   display: inline-block;
   padding-top: 0.5rem;
+  min-width: 100px;
   width: 40%;
   margin-top: 1rem;
 }
@@ -288,6 +335,42 @@ section {
   text-decoration: none;
   font-weight: bold;
   border: 2px solid #a62c21;
+}
+
+/* === media-queries Leistungen === */
+
+@media (max-width:1366px) {
+  .intro-container {
+    width: 90%;
+  }
+}
+
+@media (max-width:1366px) {
+  .leistungs-box {
+    width: 80%;
+  }
+}
+
+@media (max-width:1024px) {
+  .leistungs-box {
+    width: 100%;
+    margin-bottom: .6rem;
+  }
+  #leistungen-bereich .row>.col-3:nth-of-type(even)>.leistungs-box {
+    margin-left: 0.5rem;
+  }
+  #leistungen-bereich .row>.col-3:nth-of-type(odd)>.leistungs-box {
+    margin-right: .5rem;
+  }
+}
+
+@media (max-width:768px) {
+  #leistungen-bereich .row>.col-3:nth-of-type(even)>.leistungs-box {
+    margin-left: 0;
+  }
+  #leistungen-bereich .row>.col-3:nth-of-type(odd)>.leistungs-box {
+    margin-right: 0;
+  }
 }
 
 /* === grid-system sichtbar machen ===
