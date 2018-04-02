@@ -532,17 +532,23 @@ text-align: center;
 .service-icon {
   width: 120px;
   height: 120px;
-  background-color: #3d3f45;
   border-radius: 50%;
   margin-left: auto;
   margin-right: auto;
 }
 
 #guenstig-icon {
-  background: url(../src/img/"services-sprite.png")
+  background: #3d3f45 url("./../img/services-sprite.png") left 0 top 0;
 }
 
-#schnell-icon
+#schnell-icon {
+  background: #3d3f45 url("./../img/services-sprite.png") left -120px top 0;
+}
+
+#modern-icon {
+  background: #3d3f45 url("./../img/services-sprite.png") left -240px top 0;
+}
+
 /* === grid-system === */
 
 .container {
