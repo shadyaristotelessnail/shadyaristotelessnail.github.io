@@ -2,7 +2,7 @@
 
 #1F4E8C blue
 #3d3f45 dark grey
-#e5e5e5 light grey
+#f0f0f0 light grey
 #a62c21 red
 
 
@@ -613,6 +613,45 @@ text-align: center;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+/* === Footer === */
+
+#footer {
+  background-color: #3d3f45;
+  height: 2.8rem;
+  color: #fff;
+}
+
+#footer-nav {
+  display: inline-block;
+  float: right;
+}
+
+#footer-nav>a {
+  text-decoration: none;
+}
+
+#footer-nav>a:link {
+  color: #fff;
+}
+
+#footer-nav>a:visited {
+  color: #fff;
+}
+
+#footer-nav>a:active {
+  color: #fff;
+}
+
+#footer-nav>a:hover {
+  color: #f0f0f0;
+}
+
+@media (max-width:565px) {
+  #footer span {
+    display: none;
   }
 }
 
