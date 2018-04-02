@@ -610,7 +610,7 @@ text-align: center;
   }
 }
 
-@media (max-width:786px) {
+@media (max-width:768px) {
   .col-1 {
     width: 50%;
   }
