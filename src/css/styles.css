@@ -287,7 +287,16 @@ section {
 
 /* === Leistungen-Bereich === */
 
-.leistungs-box {
+.leistungen {
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+
+.leistungen:nth-of-type(even) {
+  background-color: #f0f0f0;
+}
+
+.leistung-teaser-box {
   background-color: #3d3f45;
   text-align: center;
   color: #fff;
@@ -296,16 +305,16 @@ section {
   margin-bottom: 1.6rem;
 }
 
-.leistungs-box>h2 {
+.leistung-teaser-box>h2 {
   font-size: 1.4rem;
 }
 
-#leistungen-bereich .row>.col-3:nth-of-type(even)>.leistungs-box {
+#leistungen-bereich .row>.col-3:nth-of-type(even)>.leistung-teaser-box {
   margin-left: 1rem;
   margin-right: auto;
 }
 
-#leistungen-bereich .row>.col-3:nth-of-type(odd)>.leistungs-box {
+#leistungen-bereich .row>.col-3:nth-of-type(odd)>.leistung-teaser-box {
   margin-right: 1rem;
   margin-left: auto;
 }
@@ -348,29 +357,29 @@ section {
 }
 
 @media (max-width:1366px) {
-  .leistungs-box {
+  .leistung-teaser-box {
     width: 80%;
   }
 }
 
 @media (max-width:1024px) {
-  .leistungs-box {
+  .leistung-teaser-box {
     width: 100%;
     margin-bottom: .6rem;
   }
-  #leistungen-bereich .row>.col-3:nth-of-type(even)>.leistungs-box {
+  #leistungen-bereich .row>.col-3:nth-of-type(even)>.leistung-teaser-box {
     margin-left: 0.5rem;
   }
-  #leistungen-bereich .row>.col-3:nth-of-type(odd)>.leistungs-box {
+  #leistungen-bereich .row>.col-3:nth-of-type(odd)>.leistung-teaser-box {
     margin-right: .5rem;
   }
 }
 
 @media (max-width:768px) {
-  #leistungen-bereich .row>.col-3:nth-of-type(even)>.leistungs-box {
+  #leistungen-bereich .row>.col-3:nth-of-type(even)>.leistung-teaser-box {
     margin-left: 0;
   }
-  #leistungen-bereich .row>.col-3:nth-of-type(odd)>.leistungs-box {
+  #leistungen-bereich .row>.col-3:nth-of-type(odd)>.leistung-teaser-box {
     margin-right: 0;
   }
 }
