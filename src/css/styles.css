@@ -76,10 +76,10 @@ section {
   border: 2px solid #A62C21;
   color: #FFF;
   padding: .4rem .6rem;
+  transition: border .5s ease-in-out;
 }
 
 .btn-typ-1:hover {
-  background-color: #A62C21;
   border: 2px solid #fff;
 }
 
@@ -88,12 +88,24 @@ section {
   background-color: transparent;
   color: #FFF;
   padding: .4rem .6rem;
+  transition: color .5s ease-in-out, font-weight .5s ease-in-out;
 }
 
 .btn-typ-2:hover {
   color: #a62c21;
   text-decoration: none;
   font-weight: bold;
+  border: 2px solid #a62c21;
+}
+
+.btn-typ-3 {
+  border: 2px solid #3d3f45;
+  background-color: transparent;
+  font-size: 1rem;
+  transition: border .5s ease-in-out;
+}
+
+.btn-typ-3:hover {
   border: 2px solid #a62c21;
 }
 
@@ -599,9 +611,12 @@ text-align: center;
   border-radius: 50%;
   margin-left: auto;
   margin-right: auto;
+  transition: transform 1s;
 }
 
-.service-icon:hover {}
+.service-icon:hover {
+  transform: rotateZ(360deg);
+}
 
 #guenstig-icon {
   background: #3d3f45 url("./../img/services-sprite.png") left 0 top 0;
@@ -871,14 +886,12 @@ text-align: center;
   font-size: 1rem;
   font-family: 'Raleway', 'Lato', 'Helvetica Neue', arial, sans-serif;
   color: #3d3f45;
+  transition: border .5s ease-in-out
 }
 
 #kontakt-formular input:hover,
 #kontakt-formular textarea:hover,
-#kontakt-formular input:focus,
-#kontakt-formular textarea:focus,
-#kontakt-formular button:hover,
-#kontakt-formular button:focus {
+  {
   /* color: #a62c21;
   text-decoration: none;
   font-weight: bold; */
@@ -896,10 +909,7 @@ text-align: center;
   height: 100px;
 }
 
-.btn-typ-3 {
-  border: 2px solid #3d3f45;
-  background-color: transparent;
-  font-size: 1rem;
+#absendenButton {
   height: 39px;
   width: 150px;
 }
