@@ -865,6 +865,13 @@ text-align: center;
   }
 }
 
+/* === Impressum === */
+
+#impressum a {
+  color: #a62c21;
+  text-decoration: none;
+}
+
 /* === grid-system === */
 
 .container {
