@@ -2,32 +2,53 @@
 <html lang="de">
 
 <head>
+
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Leistungen</title>
-	<link rel="stylesheet" type="text/css"
-	  href="src/css/styles.css">
+
+	<!-- FAVICONS -->
+	<link rel="apple-touch-icon" sizes="180x180"
+	  href="./src/img/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png"
+	  sizes="32x32" href="./src/img/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png"
+	  sizes="16x16" href="./src/img/favicons/favicon-16x16.png">
+	<link rel="manifest" href="./src/img/favicons/site.webmanifest">
+	<link rel="mask-icon" href="./src/img/favicons/safari-pinned-tab.svg"
+	  color="#5bbad5">
+	<link rel="shortcut icon" href="./src/img/favicons/favicon.ico">
+	<meta name="msapplication-TileColor"
+	  content="#f0f0f0">
+	<meta name="msapplication-config"
+	  content="./src/img/favicons/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+
+	<!-- GOOGLE-FONTS -->
 	<link href="https://fonts.googleapis.com/css?family=Lato|Raleway"
 	  rel="stylesheet">
+
+	<!-- AUTOREN-STYLESHEET -->
+	<link rel="stylesheet" type="text/css"
+	  href="./src/css/styles.min.css">
 
 </head>
 
 <body>
 
-	<!-- === Navigationsleiste == -->
-
-	<!-- Navigationsleiste -->
+	<!-- NAVIGATIONSLEISTE -->
 
 	<nav id="header-nav">
-		<!-- normale nav-leiste -->
+
+		<!-- DESKTOP-NAVIGATION -->
 
 		<div class="container" id="desktop-nav">
 			<div class="row">
 				<div class="col-6">
 
 					<a href="index.html" class="logo-link">
-						<img src="./src/img/webdesign-logo.png" alt="Logo von WEBDESIGN made simple">
-					</a>
+							<img src="./src/img/webdesign-logo.png" alt="Logo von WEBDESIGN made simple">
+						</a>
 
 					<ul>
 						<li><a href="index.html">Startseite</a></li>
@@ -40,15 +61,15 @@
 			</div>
 		</div>
 
-		<!-- mobile nav-dropdown -->
+		<!-- MOBILE-NAVIGATION -->
 
 		<div class="container" id="mobile-nav">
 			<div class="row">
 				<div class="col-6">
 
 					<a href="index.html" class="logo-link">
-						<img src="./src/img/webdesign-logo.png" alt="Logo von WEBDESIGN made simple">
-					</a>
+							<img src="./src/img/webdesign-logo.png" alt="Logo von WEBDESIGN made simple">
+						</a>
 
 					<div class="clearfix" id="mobile-nav-dropdown">
 
@@ -73,17 +94,17 @@
 
 	</nav>
 
-	<!-- === Header-banner === -->
+	<!-- HEADER-BANNER -->
 
 	<header id="header-banner-klein"></header>
 
-	<!-- === Leistungen-Seite intro bereich === -->
+	<!-- LEISTUNG -->
 
+	<section class="leistung" id="leistung1">
 
-	<section class="leistungen" id="leistungen1">
 		<div class="flex-container">
 			<header class="intro-container">
-				<h1>Leistung#1</h1>
+				<h1>Leistung #1</h1>
 				<p>Lorem ipsum dolor sit amet,
 					consectetur adipisicing elit,
 					sed do eiusmod tempor incididunt
@@ -101,13 +122,13 @@
 					anim id est laborum.</p>
 			</header>
 		</div>
-		<!-- === Flex-boxen === -->
 
 		<div class="flex-container">
+
 			<article class="leistungs-box">
+
 				<h1>Basic</h1>
 				<div>
-
 					<p>Lorem ipsum dolor sit amet,
 						consectetur adipisicing elit,
 						sed do eiusmod tempor incididunt
@@ -124,7 +145,6 @@
 						non proident, sunt in culpa
 						qui officia deserunt mollit
 						anim id est laborum.</p>
-
 					<ul>
 						<li>Lorem ipsum dolor sit amet</li>
 						<li>Lorem ipsum dolor sit amet</li>
@@ -133,11 +153,12 @@
 						<li>Lorem ipsum dolor sit amet</li>
 					</ul>
 				</div>
-				<button class="btn-typ-2 leistung-auswählen-btn"
-				  type="button">Auswählen</button>
+				<button type="button" class="btn-typ-2 leistung-auswählen-btn">Auswählen</button>
 
 			</article>
+
 			<article class="leistungs-box leistungs-box-empfohlen">
+
 				<h1>Advanced</h1>
 				<div>
 					<p>Lorem ipsum dolor sit amet,
@@ -166,14 +187,14 @@
 						<li>Lorem ipsum dolor sit amet</li>
 					</ul>
 				</div>
-				<button class="btn-typ-2 leistung-auswählen-btn"
-				  type="button">Auswählen</button>
+				<button type="button" class="btn-typ-2 leistung-auswählen-btn">Auswählen</button>
+
 			</article>
 
 			<article class="leistungs-box">
+
 				<h1>Professional</h1>
 				<div>
-
 					<p>Lorem ipsum dolor sit amet,
 						consectetur adipisicing elit,
 						sed do eiusmod tempor incididunt
@@ -201,20 +222,21 @@
 						<li>Lorem ipsum dolor sit amet</li>
 					</ul>
 				</div>
-				<button class="btn-typ-2 leistung-auswählen-btn"
-				  type="button">Auswählen</button>
+				<button type="button" class="btn-typ-2 leistung-auswählen-btn">Auswählen</button>
+
 			</article>
+
 		</div>
 
 	</section>
 
-	<!-- === Leistungen-Seite intro bereich === -->
+	<!-- LEISTUNG -->
 
+	<section class="leistung" id="leistung2">
 
-	<section class="leistungen" id="leistungen2">
 		<div class="flex-container">
 			<header class="intro-container">
-				<h1>Leistung#2</h1>
+				<h1>Leistung #2</h1>
 				<p>Lorem ipsum dolor sit amet,
 					consectetur adipisicing elit,
 					sed do eiusmod tempor incididunt
@@ -232,13 +254,13 @@
 					anim id est laborum.</p>
 			</header>
 		</div>
-		<!-- === Flex-boxen === -->
 
 		<div class="flex-container">
+
 			<article class="leistungs-box">
+
 				<h1>Basic</h1>
 				<div>
-
 					<p>Lorem ipsum dolor sit amet,
 						consectetur adipisicing elit,
 						sed do eiusmod tempor incididunt
@@ -255,7 +277,6 @@
 						non proident, sunt in culpa
 						qui officia deserunt mollit
 						anim id est laborum.</p>
-
 					<ul>
 						<li>Lorem ipsum dolor sit amet</li>
 						<li>Lorem ipsum dolor sit amet</li>
@@ -264,11 +285,12 @@
 						<li>Lorem ipsum dolor sit amet</li>
 					</ul>
 				</div>
-				<button class="btn-typ-2 leistung-auswählen-btn"
-				  type="button">Auswählen</button>
+				<button type="button" class="btn-typ-2 leistung-auswählen-btn">Auswählen</button>
 
 			</article>
+
 			<article class="leistungs-box leistungs-box-empfohlen">
+
 				<h1>Advanced</h1>
 				<div>
 					<p>Lorem ipsum dolor sit amet,
@@ -297,14 +319,14 @@
 						<li>Lorem ipsum dolor sit amet</li>
 					</ul>
 				</div>
-				<button class="btn-typ-2 leistung-auswählen-btn"
-				  type="button">Auswählen</button>
+				<button type="button" class="btn-typ-2 leistung-auswählen-btn">Auswählen</button>
+
 			</article>
 
 			<article class="leistungs-box">
+
 				<h1>Professional</h1>
 				<div>
-
 					<p>Lorem ipsum dolor sit amet,
 						consectetur adipisicing elit,
 						sed do eiusmod tempor incididunt
@@ -332,20 +354,21 @@
 						<li>Lorem ipsum dolor sit amet</li>
 					</ul>
 				</div>
-				<button class="btn-typ-2 leistung-auswählen-btn"
-				  type="button">Auswählen</button>
+				<button type="button" class="btn-typ-2 leistung-auswählen-btn">Auswählen</button>
+
 			</article>
+
 		</div>
 
 	</section>
 
-	<!-- === Leistungen-Seite intro bereich === -->
+	<!-- LEISTUNG -->
 
+	<section class="leistung" id="leistung3">
 
-	<section class="leistungen" id="leistungen3">
 		<div class="flex-container">
 			<header class="intro-container">
-				<h1>Leistung#3</h1>
+				<h1>Leistung #3</h1>
 				<p>Lorem ipsum dolor sit amet,
 					consectetur adipisicing elit,
 					sed do eiusmod tempor incididunt
@@ -363,13 +386,13 @@
 					anim id est laborum.</p>
 			</header>
 		</div>
-		<!-- === Flex-boxen === -->
 
 		<div class="flex-container">
+
 			<article class="leistungs-box">
+
 				<h1>Basic</h1>
 				<div>
-
 					<p>Lorem ipsum dolor sit amet,
 						consectetur adipisicing elit,
 						sed do eiusmod tempor incididunt
@@ -386,7 +409,6 @@
 						non proident, sunt in culpa
 						qui officia deserunt mollit
 						anim id est laborum.</p>
-
 					<ul>
 						<li>Lorem ipsum dolor sit amet</li>
 						<li>Lorem ipsum dolor sit amet</li>
@@ -395,11 +417,12 @@
 						<li>Lorem ipsum dolor sit amet</li>
 					</ul>
 				</div>
-				<button class="btn-typ-2 leistung-auswählen-btn"
-				  type="button">Auswählen</button>
+				<button type="button" class="btn-typ-2 leistung-auswählen-btn">Auswählen</button>
 
 			</article>
+
 			<article class="leistungs-box leistungs-box-empfohlen">
+
 				<h1>Advanced</h1>
 				<div>
 					<p>Lorem ipsum dolor sit amet,
@@ -428,14 +451,14 @@
 						<li>Lorem ipsum dolor sit amet</li>
 					</ul>
 				</div>
-				<button class="btn-typ-2 leistung-auswählen-btn"
-				  type="button">Auswählen</button>
+				<button type="button" class="btn-typ-2 leistung-auswählen-btn">Auswählen</button>
+
 			</article>
 
 			<article class="leistungs-box">
+
 				<h1>Professional</h1>
 				<div>
-
 					<p>Lorem ipsum dolor sit amet,
 						consectetur adipisicing elit,
 						sed do eiusmod tempor incididunt
@@ -463,20 +486,21 @@
 						<li>Lorem ipsum dolor sit amet</li>
 					</ul>
 				</div>
-				<button class="btn-typ-2 leistung-auswählen-btn"
-				  type="button">Auswählen</button>
+				<button type="button" class="btn-typ-2 leistung-auswählen-btn">Auswählen</button>
+
 			</article>
+
 		</div>
 
 	</section>
 
-	<!-- === Leistungen-Seite intro bereich === -->
+	<!-- LEISTUNG -->
 
+	<section class="leistung" id="leistung4">
 
-	<section class="leistungen" id="leistungen4">
 		<div class="flex-container">
 			<header class="intro-container">
-				<h1>Leistung#4</h1>
+				<h1>Leistung #4</h1>
 				<p>Lorem ipsum dolor sit amet,
 					consectetur adipisicing elit,
 					sed do eiusmod tempor incididunt
@@ -494,13 +518,13 @@
 					anim id est laborum.</p>
 			</header>
 		</div>
-		<!-- === Flex-boxen === -->
 
 		<div class="flex-container">
+
 			<article class="leistungs-box">
+
 				<h1>Basic</h1>
 				<div>
-
 					<p>Lorem ipsum dolor sit amet,
 						consectetur adipisicing elit,
 						sed do eiusmod tempor incididunt
@@ -517,7 +541,6 @@
 						non proident, sunt in culpa
 						qui officia deserunt mollit
 						anim id est laborum.</p>
-
 					<ul>
 						<li>Lorem ipsum dolor sit amet</li>
 						<li>Lorem ipsum dolor sit amet</li>
@@ -526,11 +549,12 @@
 						<li>Lorem ipsum dolor sit amet</li>
 					</ul>
 				</div>
-				<button class="btn-typ-2 leistung-auswählen-btn"
-				  type="button">Auswählen</button>
+				<button type="button" class="btn-typ-2 leistung-auswählen-btn">Auswählen</button>
 
 			</article>
+
 			<article class="leistungs-box leistungs-box-empfohlen">
+
 				<h1>Advanced</h1>
 				<div>
 					<p>Lorem ipsum dolor sit amet,
@@ -559,14 +583,14 @@
 						<li>Lorem ipsum dolor sit amet</li>
 					</ul>
 				</div>
-				<button class="btn-typ-2 leistung-auswählen-btn"
-				  type="button">Auswählen</button>
+				<button type="button" class="btn-typ-2 leistung-auswählen-btn">Auswählen</button>
+
 			</article>
 
 			<article class="leistungs-box">
+
 				<h1>Professional</h1>
 				<div>
-
 					<p>Lorem ipsum dolor sit amet,
 						consectetur adipisicing elit,
 						sed do eiusmod tempor incididunt
@@ -594,20 +618,22 @@
 						<li>Lorem ipsum dolor sit amet</li>
 					</ul>
 				</div>
-				<button class="btn-typ-2 leistung-auswählen-btn"
-				  type="button">Auswählen</button>
+				<button type="button" class="btn-typ-2 leistung-auswählen-btn">Auswählen</button>
+
 			</article>
+
 		</div>
 
 	</section>
-	<!-- === Footer === -->
+
+	<!-- FOOTER-->
 
 	<footer id="footer">
 
 		<div class="container">
 			<div class="row">
 				<div class="col-6">
-					<span>WEBDESIGN-made-simple online Kurs</span>
+					<span>WEBDESIGN made simple by Ruben Winkler (2018)</span>
 					<nav id="footer-nav">
 						<a href="impressum.html">Impressum</a>
 					</nav>
